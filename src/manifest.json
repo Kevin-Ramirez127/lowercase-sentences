@@ -1,0 +1,35 @@
+{
+    "name": "Lowercase sentences",
+    "version": "1.0.0",
+    "description": "Chrome extension that minimizes all uppercase sentences",
+    "permissions": [
+    ],
+    "background": {
+        "service_worker": "bg.js"
+    },
+    "host_permissions": [""],
+    "action": {
+        "default_icon": {
+            "48": ""
+        }
+    },
+    "icons": {
+        "48": ""
+    },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                ""
+            ],
+            "js": [
+            ],
+            "css": [],
+            "run_at": "document_end"
+        }
+    ],
+    "manifest_version": 3
+}
