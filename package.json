@@ -1,0 +1,24 @@
+{
+  "name": "lowercase-sentences",
+  "version": "1.0.0",
+  "description": "Chrome extension that minimizes all uppercase sentences",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LegoJin/lowercase-sentences.git"
+  },
+  "keywords": [],
+  "author": "Kevin Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LegoJin/lowercase-sentences/issues"
+  },
+  "homepage": "https://github.com/LegoJin/lowercase-sentences#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.13",
+    "typescript": "^4.9.4"
+  }
+}
